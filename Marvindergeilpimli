@@ -1,0 +1,387 @@
+
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Der Heilige Marvinismus</title>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Uncial+Antiqua&family=Cinzel:wght@400;600;800&family=EB+Garamond:ital,wght@0,400;0,600;1,400&display=swap');
+
+:root {
+  --gold: #b58a3b;
+  --dark: #21170e;
+  --paper: #e8d4a9;
+  --red: #792c24;
+}
+
+* { box-sizing: border-box; scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  color: var(--dark);
+  background:
+    radial-gradient(ellipse, #8a704b, #382719);
+  font-family: 'EB Garamond', serif;
+}
+
+header {
+  text-align: center;
+  padding: 55px 20px 35px;
+  background: linear-gradient(#291c12, #49301c);
+  color: var(--paper);
+  border-bottom: 5px double var(--gold);
+}
+
+header h1 {
+  font: 800 clamp(30px, 6vw, 65px) 'Uncial Antiqua';
+  color: #e5c47c;
+  margin: 10px;
+  text-shadow: 3px 3px #000;
+}
+
+header p { font-size: 21px; font-style: italic; }
+
+.seal {
+  font-size: 75px;
+  color: var(--gold);
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background: #291c12;
+  border-bottom: 2px solid var(--gold);
+}
+
+nav a {
+  color: #e8d4a9;
+  padding: 15px 18px;
+  text-decoration: none;
+  font-family: Cinzel, serif;
+  font-size: 13px;
+}
+
+nav a:hover { background: #684626; color: white; }
+
+main {
+  max-width: 950px;
+  margin: 35px auto;
+  padding: 0 15px;
+}
+
+section {
+  background:
+    linear-gradient(120deg, rgba(255,255,255,.12), transparent),
+    var(--paper);
+  padding: 35px;
+  margin-bottom: 30px;
+  border: 8px double #795b32;
+  box-shadow: 0 8px 25px #160e08;
+  scroll-margin-top: 75px;
+}
+
+h2 {
+  font: 800 28px 'Uncial Antiqua';
+  text-align: center;
+  color: #6d3020;
+  border-bottom: 2px solid var(--gold);
+  padding-bottom: 15px;
+}
+
+h3 {
+  font: 600 20px Cinzel, serif;
+  color: #6d3020;
+}
+
+p, li { font-size: 19px; line-height: 1.65; }
+
+.hero {
+  text-align: center;
+  padding: 55px 20px;
+}
+
+.hero .big { font-size: 100px; }
+
+.quote {
+  text-align: center;
+  font-size: 25px;
+  font-style: italic;
+  color: #722e20;
+  padding: 20px;
+}
+
+.seven li { margin-bottom: 12px; }
+
+.card {
+  border: 1px solid #a17a40;
+  padding: 17px;
+  margin: 15px 0;
+  background: #d9c397;
+}
+
+button {
+  background: #6d3020;
+  color: #f3dfb6;
+  border: 2px solid var(--gold);
+  padding: 13px 22px;
+  font: 600 15px Cinzel, serif;
+  cursor: pointer;
+}
+
+button:hover { background: #381d14; }
+
+#oracle {
+  text-align: center;
+  font-size: 23px;
+  font-style: italic;
+  min-height: 65px;
+}
+
+footer {
+  text-align: center;
+  background: #291c12;
+  color: #d7bd83;
+  padding: 35px;
+  border-top: 5px double var(--gold);
+}
+
+@media(max-width:600px) {
+  section { padding: 22px; }
+  nav a { padding: 12px 9px; font-size: 11px; }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <div class="seal">☼</div>
+  <h1>MARVINISMUS</h1>
+  <p>Die einzig völlig erfundene Wahrheit</p>
+  <p>✦ Im Namen Marvins, des Ersten ✦</p>
+</header>
+
+<nav>
+  <a href="#start">Anfang</a>
+  <a href="#marvin">Marvin</a>
+  <a href="#geschichte">Chronik</a>
+  <a href="#gebote">Gebote</a>
+  <a href="#buch">Heilige Schrift</a>
+  <a href="#feste">Feiertage</a>
+  <a href="#orakel">Orakel</a>
+</nav>
+
+<main>
+
+<section class="hero" id="start">
+  <div class="big">👑</div>
+  <h2>Willkommen im Heiligen Reich</h2>
+  <p>
+    Wanderer, halte inne! Du hast den heiligen Ort des
+    Marvinismus betreten. Hier wird die Weisheit verehrt,
+    die Logik hinterfragt und Marvin niemals vergessen.
+  </p>
+  <div class="quote">
+    „Wer nicht fragt, bleibt dumm.
+    Wer Marvin fragt, bekommt eine noch längere Antwort.“
+  </div>
+  <p><b>Gegründet in einer Zeit, die vermutlich niemand mehr kennt.</b></p>
+</section>
+
+<section id="marvin">
+  <h2>Der große Marvin</h2>
+  <div class="quote">☼ Der Erste und Größte ☼</div>
+
+  <p>
+    Marvin der Erste gilt als Gründer, oberster Denker und
+    legendärer Mittelpunkt des Marvinismus.
+  </p>
+
+  <p>
+    Der Überlieferung nach erschien Marvin eines Tages aus
+    dem Nebel der Unwissenheit. Er blickte auf die Welt und
+    sprach die berühmten Worte:
+  </p>
+
+  <div class="quote">
+    „Warum eigentlich nicht?“
+  </div>
+
+  <p>
+    Seit diesem Tage gilt Marvin als Symbol für Neugier,
+    Selbstironie und die große Kunst, auf fast jede Frage
+    eine völlig unerwartete Antwort zu geben.
+  </p>
+
+  <div class="card">
+    <h3>Die heiligen Titel</h3>
+    <ul>
+      <li>Marvin der Erste</li>
+      <li>Herr der goldenen Socke</li>
+      <li>Bewahrer des heiligen Snacks</li>
+      <li>Meister der großen Langeweile</li>
+      <li>Beschützer des letzten Stückes Pizza</li>
+    </ul>
+  </div>
+</section>
+
+<section id="geschichte">
+  <h2>Die heilige Chronik</h2>
+
+  <h3>Kapitel I – Die Erschaffung</h3>
+  <p>
+    Am Anfang herrschte Chaos. Niemand wusste, wer die
+    Fernbedienung besaß. Die Welt war dunkel und die Snacks
+    waren knapp.
+  </p>
+
+  <h3>Kapitel II – Die Erscheinung</h3>
+  <p>
+    Dann erschien Marvin. Mit einer Weisheit, die niemand
+    verstand, und einer Ausstrahlung, die selbst die
+    königlichen Hühner beeindruckte.
+  </p>
+
+  <h3>Kapitel III – Das erste Gesetz</h3>
+  <p>
+    Marvin verkündete, dass jeder Mensch das Recht habe,
+    Fragen zu stellen und über sich selbst zu lachen.
+    Die ersten Anhänger begannen, seine Geschichten
+    aufzuschreiben.
+  </p>
+
+  <h3>Kapitel IV – Das goldene Zeitalter</h3>
+  <p>
+    Die Chronisten berichten von endlosen Festen,
+    philosophischen Diskussionen und einer legendären
+    Pizza, die niemals vollständig aufgeklärt wurde.
+  </p>
+</section>
+
+<section id="gebote">
+  <h2>Die sieben heiligen Gebote</h2>
+
+  <ol class="seven">
+    <li>Du sollst Marvin niemals mit einem gewöhnlichen Kartoffelsack verwechseln.</li>
+    <li>Du sollst dein letztes Stück Pizza nicht vergessen.</li>
+    <li>Du sollst Fragen stellen, auch wenn niemand die Antwort kennt.</li>
+    <li>Du sollst andere Glaubensrichtungen respektieren.</li>
+    <li>Du sollst niemals behaupten, die heilige Socke gefunden zu haben.</li>
+    <li>Du sollst Humor niemals als Schwäche betrachten.</li>
+    <li>Du sollst niemals vergessen: Auch Marvin kann sich irren.</li>
+  </ol>
+</section>
+
+<section id="buch">
+  <h2>Das Buch Marvins</h2>
+
+  <div class="card">
+    <h3>Das erste Buch – Von der Weisheit</h3>
+    <p>
+      Und Marvin sprach: „Wer alles weiß, hat aufgehört,
+      etwas zu lernen.“
+    </p>
+  </div>
+
+  <div class="card">
+    <h3>Das zweite Buch – Von den Snacks</h3>
+    <p>
+      „Ein leerer Magen führt zu leeren Gedanken.
+      Darum soll niemand hungrig philosophieren müssen.“
+    </p>
+  </div>
+
+  <div class="card">
+    <h3>Das dritte Buch – Von der Langeweile</h3>
+    <p>
+      „Selbst die größte Langeweile kann zur größten
+      Idee führen. Oder zu einem Nickerchen.“
+    </p>
+  </div>
+</section>
+
+<section id="feste">
+  <h2>Die heiligen Feiertage</h2>
+
+  <div class="card">
+    <h3>☼ Der Tag Marvins</h3>
+    <p>Ein Tag der Freude, des Lachens und der guten Geschichten.</p>
+  </div>
+
+  <div class="card">
+    <h3>🍕 Das Fest der heiligen Pizza</h3>
+    <p>Ein Fest zu Ehren der wichtigsten Errungenschaft der Menschheit.</p>
+  </div>
+
+  <div class="card">
+    <h3>🧦 Der Tag der verlorenen Socke</h3>
+    <p>Ein stiller Gedenktag für alle Socken, die nie zurückkehrten.</p>
+  </div>
+</section>
+
+<section id="orakel">
+  <h2>Das Orakel Marvins</h2>
+  <p>
+    Stelle dich der uralten Weisheit. Klicke auf den Knopf
+    und empfange einen zufälligen Spruch aus dem Reich Marvins.
+  </p>
+
+  <div id="oracle">
+    „Die Antwort liegt irgendwo zwischen Kühlschrank und Sofa.“
+  </div>
+
+  <center>
+    <button onclick="oracle()">Weisheit empfangen</button>
+  </center>
+</section>
+
+<section>
+  <h2>Das Ende der Schrift</h2>
+  <div class="quote">
+    „Möge dein Weg hell sein, dein Essen warm
+    und dein WLAN niemals verschwinden.“
+  </div>
+  <p style="text-align:center">
+    So endet die heilige Schrift des Marvinismus.
+    Doch die Legende lebt weiter.
+  </p>
+</section>
+
+</main>
+
+<footer>
+  <div style="font-size:40px">☼</div>
+  <h3 style="color:#e5c47c">Das Heilige Reich des Marvinismus</h3>
+  <p>In Ewigkeit, Amen – oder zumindest bis zum Abendessen.</p>
+  <p><small>Ein vollständig erfundenes, satirisches Religionsprojekt.
+  Keine reale Religionsgemeinschaft.</small></p>
+  <p>© 2026 – Die Chronisten Marvins</p>
+</footer>
+
+<script>
+const sayings = [
+  "Marvin sprach: Auch ein König muss irgendwann schlafen.",
+  "Wer die Pizza teilt, hat den wahren Frieden verstanden.",
+  "Die Socke ist nicht verloren. Sie ist auf einer Reise.",
+  "Wissen ist Macht. Aber WLAN ist wichtiger.",
+  "Wer zu lange nachdenkt, verpasst manchmal das Mittagessen.",
+  "Marvin sieht alles. Außer seinen Schlüssel.",
+  "Die größte Weisheit liegt manchmal im Kühlschrank.",
+  "Ein weiser Mensch kennt seine Grenzen. Marvin sucht sie noch."
+];
+
+function oracle() {
+  const random = Math.floor(Math.random() * sayings.length);
+  document.getElementById("oracle").textContent =
+    "☼ " + sayings[random] + " ☼";
+}
+</script>
+
+</body>
+</html>
